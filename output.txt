@@ -1,0 +1,12 @@
+Caso 1:
+Accepted
+Accepted
+Rejected
+Rejected
+Caso 2:
+Accepted
+Accepted
+Accepted
+Rejected
+Rejected
+Rejected
