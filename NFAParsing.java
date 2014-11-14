@@ -26,7 +26,7 @@ class Automaton {
     //1st dim = origin index
     //2dn dim = destiny index
     //string:  alphabet symbols for transition
-     HashSet<Character> [][] transitions; 
+    HashSet<Character> [][] transitions; 
     
     
            
@@ -62,9 +62,6 @@ class Automaton {
            char currentTransitionChar = inputString[charIndex];
            //for each state in currentStates
            
-//           Iterator currentStatesIterator = currentStates.iterator();
-//           while (currentStatesIterator.hasNext()) {
-//              int originState = (Integer) currentStatesIterator.next();
            for (Integer originState: currentStates){
                
                //for each transition starting from originState, current char 

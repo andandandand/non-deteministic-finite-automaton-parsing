@@ -26,7 +26,7 @@ class Automaton {
     //1st dim = origin index
     //2dn dim = destiny index
     //string:  alphabet symbols for transition
-     HashSet<Character> [][] transitions; 
+    HashSet<Character> [][] transitions; 
     
     
            
@@ -121,7 +121,7 @@ class Automaton {
                          caseCounter <= numberOfCases;
                          caseCounter++) {
 
-                          String caseReport = "Caso " +
+                          String caseReport = "Case " +
                                                Integer.toString(caseCounter)
                                                +":\n";
                           
