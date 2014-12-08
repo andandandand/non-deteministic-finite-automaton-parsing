@@ -1,14 +1,28 @@
+
 Case 1:
+Input: aa
 Accepted
+Input: abb
 Accepted
+Input: aba
 Rejected
+Input: baa
 Rejected
+Input: aaaaaa
 Accepted
+
 Case 2:
+Input: 01
 Accepted
+Input: 0101
 Accepted
+Input: 01001
 Accepted
+Input: 10
 Rejected
+Input: 101
 Rejected
+Input: 011
 Rejected
+Input: 010101
 Accepted

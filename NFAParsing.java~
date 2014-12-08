@@ -107,7 +107,7 @@ class Automaton {
         PrintWriter writer = new PrintWriter("output.txt", "UTF-8");
 	 
  
-        //BufferedReader br = new BufferedReader(new FileReader("input.txt"));
+          //BufferedReader br = new BufferedReader(new FileReader("input.txt"));
           BufferedReader br = new BufferedReader(new InputStreamReader(System.in));          
 	   try {
                 
@@ -121,7 +121,7 @@ class Automaton {
                          caseCounter++) {
 
 			  
-                          String caseReport = "Case " +
+                          String caseReport = "\nCase " +
                                                Integer.toString(caseCounter)
                                                +":\n";
                           
@@ -193,6 +193,7 @@ class Automaton {
                                      br.readLine().toCharArray();
                              
 			     System.out.println("Input: " + new String(inputString));
+                             writer.writeln("Input: " + new String(inputString) + "\n");
                              
                             int initialState = 0;
                             

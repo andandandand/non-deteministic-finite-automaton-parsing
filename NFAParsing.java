@@ -121,7 +121,7 @@ class Automaton {
                          caseCounter++) {
 
 			  
-                          String caseReport = "Case " +
+                          String caseReport = "\nCase " +
                                                Integer.toString(caseCounter)
                                                +":\n";
                           
@@ -193,6 +193,7 @@ class Automaton {
                                      br.readLine().toCharArray();
                              
 			     System.out.println("Input: " + new String(inputString));
+                             writer.write("Input: " + new String(inputString) + "\n");
                              
                             int initialState = 0;
                             
