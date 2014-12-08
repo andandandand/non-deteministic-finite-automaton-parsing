@@ -1,6 +1,7 @@
 
 
 import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.io.FileReader;
 import java.io.IOException; 
@@ -106,8 +107,9 @@ class Automaton {
         PrintWriter writer = new PrintWriter("output.txt", "UTF-8");
 	 
  
-        BufferedReader br = new BufferedReader(new FileReader("input.txt"));
-             try {
+          //BufferedReader br = new BufferedReader(new FileReader("input.txt"));
+          BufferedReader br = new BufferedReader(new InputStreamReader(System.in));          
+	   try {
                 
                  line = br.readLine();
                  
@@ -118,12 +120,15 @@ class Automaton {
                          caseCounter <= numberOfCases;
                          caseCounter++) {
 
+			  
                           String caseReport = "Case " +
                                                Integer.toString(caseCounter)
                                                +":\n";
                           
-                          writer.write(caseReport);                    
-                          
+                          writer.write(caseReport); 
+			  System.out.println("****************");	                   
+			  System.out.println(caseReport);	                          
+
                           String [] StatesTransitionsFinals 
                                   = br.readLine().split(" ");
                           
@@ -186,7 +191,8 @@ class Automaton {
                           
                              char [] inputString =
                                      br.readLine().toCharArray();
-                              
+                             
+			     System.out.println("Input: " + new String(inputString));
                              
                             int initialState = 0;
                             
@@ -194,8 +200,9 @@ class Automaton {
                                     automaton
                                     .parseString(inputString, 
                                                  initialState);
-                             
-                            writer.write(result+"\n");
+                            
+			    System.out.println(result + "\n"); 
+                            writer.write(result +"\n");
                           }
                           
                                 
