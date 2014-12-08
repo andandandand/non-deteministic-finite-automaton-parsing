@@ -85,6 +85,6 @@ Accepted
 
 Affero GPL License
 
-**Author**: Antonio Rueda-Toicen
+####**Author**: Antonio Rueda-Toicen####
 
-                  antonio "." rueda "." toicen [ at ] gmail 
+antonio "." rueda "." toicen [ at ] gmail
