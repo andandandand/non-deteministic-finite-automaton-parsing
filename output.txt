@@ -1,9 +1,9 @@
-Caso 1:
+Case 1:
 Accepted
 Accepted
 Rejected
 Rejected
-Caso 2:
+Case 2:
 Accepted
 Accepted
 Accepted

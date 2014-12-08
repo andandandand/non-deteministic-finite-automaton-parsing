@@ -25,7 +25,7 @@ class Automaton {
     
     //1st dim = origin index
     //2dn dim = destiny index
-    //string:  alphabet symbols for transition
+    //string: alphabet symbols for transition
     HashSet<Character> [][] transitions; 
     
     
@@ -60,8 +60,8 @@ class Automaton {
        for (int charIndex = 0; charIndex < inputString.length; charIndex++){
        
            char currentTransitionChar = inputString[charIndex];
-           //for each state in currentStates
-           
+
+           //for each state in currentStates        
            for (Integer originState: currentStates){
                
                //for each transition starting from originState, current char 
@@ -84,7 +84,7 @@ class Automaton {
        
        //test intersection between currentStates and finalStates
        
-       //copy currentStates first (unneeded, done for legibility)
+       //copy currentStates first
        Set <Integer> intersectionCurrentFinal = new HashSet<Integer>(currentStates); 
        intersectionCurrentFinal.retainAll(finalStates);
         
@@ -130,9 +130,7 @@ class Automaton {
                           
                           int numberOfStates 
                                   = Integer.parseInt(StatesTransitionsFinals[0]);
-                          
-                         // automaton.setStates(numberOfStates);
-                                                    
+                                                                              
                           int numberOfTransitions
                                   = Integer.parseInt(StatesTransitionsFinals[1]);
                           
