@@ -1,8 +1,8 @@
-# **String Parsing with Non-deterministic Finite Automata** #
+# **String Parsing with Nondeterministic Finite Automata** #
 
 ![nfa.png](https://bitbucket.org/repo/rndAKA/images/3388128771-nfa.png)
 
-Java (6+) implementation of a non-deterministic finite automaton.  String are only accepted if they are consumed while being on a final state. The automaton's transitions and evaluated strings are defined in an input text file. Output declaring strings as accepted/rejected is printed in console and saved in output.txt. To execute call from terminal
+Java (6+) implementation of a [nondeterministic finite automaton](http://en.wikipedia.org/wiki/Nondeterministic_finite_automaton).  String are only accepted if they are consumed while being on a final state. The automaton's transitions and evaluated strings are defined in an input text file. Output declaring strings as accepted/rejected is printed in console and saved in output.txt. To execute call from terminal
 
 ```
 #!bash
