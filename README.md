@@ -11,7 +11,7 @@ java NFAParsing < input.txt
 ```
 
 ##Input file definition##
-* ***K*** (first line of the input file): specifies the number of automata. Each automaton case defines states, transitions and strings to parse. After ***K***, come ***K*** automaton definitions. 
+* ***K*** (first line of the input file): specifies the number of automata. Each automaton case defines states, transitions and strings to parse. After ***K***, come ***K*** automata definitions. 
 
 * ***S*** (first line of automaton's definition, first integer): defines the number of states for the automaton, which are numbered starting from 0.  
 
