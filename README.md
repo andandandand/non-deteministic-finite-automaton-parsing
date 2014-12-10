@@ -83,7 +83,7 @@ Accepted
 
 ### License ###
 
-Affero GPL License
+Affero GPL v3 License
 
 ####**Author**: Antonio Rueda-Toicen####
 
