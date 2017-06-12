@@ -23,7 +23,7 @@ java NFAParsing < input.txt
 
 * After the listing of transitions, comes a line with the integer ***S***. This integer is the number of strings that will be parsed. Next come the ***S*** strings that will be parsed. 
 
-### input.txt ###
+### input.txt 
 1  
 
 3 4 2  
@@ -52,7 +52,7 @@ baa
 
 aaaaaa 
 
-###output###
+### output
 
 Case 1:
 
@@ -81,10 +81,10 @@ Input: aaaaaa
 Accepted
 
 
-### License ###
+### License 
 
 Affero GPL v3 License
 
-####**Author**: Antonio Rueda-Toicen####
+#### **Author**: Antonio Rueda-Toicen
 
 antonio "." rueda "." toicen [ at ] gmail
